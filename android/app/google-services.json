@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "210962444930",
+    "project_id": "alinmapaynotifications",
+    "storage_bucket": "alinmapaynotifications.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210962444930:android:45ecf956a6a33816473a9b",
+        "android_client_info": {
+          "package_name": "com.alinmapaynotifications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnpfTHhBRneLn3Z-Afjdj7i8K0iWQPGNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
