@@ -1,8 +1,9 @@
+import React, {useEffect} from 'react';
 import {Text, Alert, SafeAreaView} from 'react-native';
 import useNotificationPermission from './src/hooks/useNotificationPermission';
 import usePushwoosh from './src/hooks/UsePushWoosh';
 import messaging from '@react-native-firebase/messaging';
-import { useState } from 'react';
+import {useState} from 'react';
 
 const App = () => {
   const {permissionGranted, deviceToken} = useNotificationPermission();
@@ -25,7 +26,7 @@ const App = () => {
   }, [permissionGranted, pushwooshInitialized]);
 
   return (
-    
+    <SafeAreaView>
       <Text>Permission Granted: {permissionGranted ? 'Yes' : 'No'}</Text>
       {deviceToken && <Text>Device Token: {deviceToken}</Text>}
     </SafeAreaView>
