@@ -1,6 +1,4 @@
-Certainly! Here's a README file template for your GitHub repository focusing on notifications using Pushwoosh and FCM:
 
----
 
 # POC Notifications with Pushwoosh and FCM
 
